@@ -1,0 +1,26 @@
+{
+  "name": "klassy",
+  "version": "0.1.0",
+  "description": "Class inheritance with mixins and constructors",
+  "main": "lib/klassy.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cerebris/klassy.js.git"
+  },
+  "scripts": {
+    "test": "bower install && rm -rf build && BROCCOLI_ENV=test broccoli build build && testem ci"
+  },
+  "authors": [
+    "Dan Gebhardt"
+  ],
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "devDependencies": {
+    "broccoli": "^0.13.0",
+    "broccoli-concat": "^0.0.11",
+    "broccoli-es6-concatenator": "^0.1.7",
+    "broccoli-merge-trees": "^0.1.4",
+    "broccoli-static-compiler": "^0.1.4",
+    "testem": "^0.6.19"
+  }
+}
