@@ -1,6 +1,6 @@
 {
   "name": "klassy",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Class inheritance with mixins and constructors",
   "main": "lib/klassy.js",
   "repository": {
