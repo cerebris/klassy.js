@@ -3,6 +3,7 @@
   "version": "0.1.2",
   "description": "Class inheritance with mixins and constructors",
   "main": "lib/klassy.js",
+  "jsnext:main": "lib/klassy.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/cerebris/klassy.js.git"
